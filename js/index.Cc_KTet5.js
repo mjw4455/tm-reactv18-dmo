@@ -1,0 +1,1 @@
+import{d as t}from"./index.DXZwTF1W.js";const s={login:e=>t.post("/api/users/login",{params:e}),getDept:e=>t.get("/api/dept/list",{params:e}),getUserList:()=>t.get("/api/users/list",{}),createDept:e=>t.post("/api/dept/create",{data:e}),updateDept:e=>t.post("/api/dept/edit",{data:e}),deleteDept:e=>t.post("/api/dept/delete",{params:{_id:e}})};export{s as a};
