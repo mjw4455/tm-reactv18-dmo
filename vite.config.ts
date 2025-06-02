@@ -35,7 +35,7 @@ export default defineConfig(({ mode }: ConfigEnv) => {
   const env = loadEnv(mode, root);
   console.log(666, env);
   return {
-    base: "/tm-reactv18-dmo/",
+    base: "/",
     plugins: [react(), viteMockServer(), visualizer()],
     resolve: {
       alias: {
