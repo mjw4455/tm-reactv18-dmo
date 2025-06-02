@@ -1,0 +1,1 @@
+import{j as r}from"./index.vbmeblNO.js";import"./framework.DeqkGhWy.js";import"./ui-lib.Bnf-PDlM.js";import"./utils.t--hEgTQ.js";const s={};function d(){return r.jsx("div",{className:s.dashboard,children:"Dashboard"})}export{d as default};

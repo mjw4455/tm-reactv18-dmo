@@ -1,1 +1,0 @@
-import{j as t}from"./index.DXZwTF1W.js";import"./framework.DeqkGhWy.js";import"./ui-lib.Bnf-PDlM.js";import"./utils.t--hEgTQ.js";const e={};function i(){return t.jsx("div",{className:e.menu,children:"Menu"})}export{i as default};
