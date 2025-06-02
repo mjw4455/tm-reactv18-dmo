@@ -25,7 +25,7 @@ jobs:
         with:
           branch: gh-pages
           publish_dir: ./dist
-          github_token: ${{ secrets.CICDDEMO }}
+          github_token: ${{ secrets.PAT }}
           commit_message: 自动部署
 
 #secrets.ACCESS_TOKEN,前往github：settings-->Developer settings-->personal access tokens-->new Tokens(classic)-->创建时勾选repo、workflow
