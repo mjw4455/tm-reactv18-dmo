@@ -1,1 +1,0 @@
-import{j as r}from"./index.CpG82mxC.js";import"./framework.DeqkGhWy.js";import"./ui-lib.Bnf-PDlM.js";import"./utils.t--hEgTQ.js";const s={};function m(){return r.jsx("div",{className:s.user,children:"User"})}export{m as default};
