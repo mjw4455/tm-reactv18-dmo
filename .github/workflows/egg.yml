@@ -1,0 +1,33 @@
+name: 打包react项目
+on:
+  push:
+    branches: [main] #有push事件时触发
+    paths-ignore:
+      - '**/*.md' #忽略md文件
+
+jobs:
+  build:
+    name: npm-build工作流
+    runs-on: ubuntu-latest
+    steps:
+      - name: 读取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 安装依赖和项目打包
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+        run: |
+          npm install
+          npm run build
+
+      - name: 部署
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          publish_dir: ./dist
+          github_token: ${{ secrets.CICDDEMO }}
+          commit_message: 自动部署
+
+#secrets.ACCESS_TOKEN,前往github：settings-->Developer settings-->personal access tokens-->new Tokens(classic)-->创建时勾选repo、workflow
+#创建好token后，前往setting-->secrets and variables-->actions-->new repository secret-->name名字和secrets.xxxx一样，value就是token
