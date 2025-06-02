@@ -88,4 +88,6 @@ export const routerList = [
     element: <div>404</div>,
   },
 ];
-export default createBrowserRouter(routerList);
+export default createBrowserRouter(routerList, {
+  basename: "/tm-reactv18-dmo"
+});
