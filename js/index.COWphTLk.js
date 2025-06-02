@@ -1,0 +1,1 @@
+import{j as e}from"./index.CpG82mxC.js";import{s as m}from"./index.module.CicyuPQo.js";import"./framework.DeqkGhWy.js";import"./ui-lib.Bnf-PDlM.js";import"./utils.t--hEgTQ.js";function l(){return e.jsx("div",{className:m.welcome,children:e.jsx("div",{className:m["welcome-title"],children:"Welcome"})})}export{l as default};

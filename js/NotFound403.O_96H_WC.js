@@ -1,0 +1,1 @@
+import{j as t}from"./index.CpG82mxC.js";import{s as e}from"./index.module.CicyuPQo.js";import"./framework.DeqkGhWy.js";import"./ui-lib.Bnf-PDlM.js";import"./utils.t--hEgTQ.js";function l(){return t.jsx("div",{className:e.welcome,children:t.jsx("div",{className:e["welcome-title"],children:"403,无权限访问该页面"})})}export{l as default};
